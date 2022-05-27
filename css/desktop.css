@@ -1,54 +1,54 @@
-body main .container .tarjet-container{
+body main .container .card-container{
     width: 438px;
     height: 444px;
 }
 
-body main .container .tarjet-container .info--tarjet, .thanks--tarjet{
+body main .container .card-container .info--card, .thanks--card{
     padding: 23px 24px 32px 26px;
 }
 
-body main .container .tarjet-container .info--tarjet img{
+body main .container .card-container .info--card img{
     padding: 16px;
     margin-bottom: 28px;
 }
 
-body main .container .tarjet-container .info--tarjet h1, .thanks--tarjet h1{
+body main .container .card-container .info--card h1, .thanks--card h1{
     font-size: 1.5rem;
 }
 
-body main .container .tarjet-container .info--tarjet p, .thanks--tarjet p{
+body main .container .card-container .info--card p, .thanks--card p{
     font-size: 1rem;
     margin: 0 0 28px 0;
-    width: 380px;   /*ESTO PUEDE MEJORAR CON UN MAX-MIN*/
+    width: 380px;   
 }
 
-body main .container .tarjet-container .info--tarjet .rating{
+body main .container .card-container .info--card .rating{
     grid-template-columns: repeat(5,50px);
 }
 
-body main .container .tarjet-container .info--tarjet .rating span{
+body main .container .card-container .info--card .rating span{
     font-size: 1rem; 
     padding: 16px;
 }
 
-body main .container .tarjet-container .info--tarjet .btn--tarjet{
+body main .container .card-container .info--card .btn--card{
     font-size: 0.98rem;
     cursor: pointer;
 }
 
-body main .container .tarjet-container .info--tarjet .btn--tarjet:hover{
+body main .container .card-container .info--card .btn--card:hover{
     background-color: var(--White);
     color: var(--Orange);
 }
 
-body main .container .tarjet-container .thanks--tarjet img{
+body main .container .card-container .thanks--card img{
     width: 190px;
     height: 124px;
     margin-top: 20px;
     margin-bottom: 38px; 
 }
 
-body main .container .tarjet-container .thanks--tarjet .txt-rate{
+body main .container .card-container .thanks--card .txt-rate{
     font-size: 0.9rem;
     margin-bottom: 44px;
 }
